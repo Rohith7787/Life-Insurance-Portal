@@ -1,0 +1,40 @@
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-vector/illustration-people-with-insurance-policy_53876-26675.jpg?w=900&t=st=1689748946~exp=1689749546~hmac=0a40b4a93323e0f32dc49724aeca78ec491aa41cf8799da69acd8fdf0db321ba');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .home-page-container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .home-page-container p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .cta-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #0056b3;
+  }
+  
